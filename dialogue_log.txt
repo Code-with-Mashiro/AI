@@ -1,0 +1,3 @@
+with open('dialogue_log.txt', 'a', encoding='utf-8') as f:
+    f.write(f"[{datetime.now()}] あなた: {user_input}\n")
+    f.write(f"[{datetime.now()}] AI: {response}\n")

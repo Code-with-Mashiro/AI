@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# (中略... 公式テンプレートの大部分はそのまま)
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# (中略... 公式テンプレートの残りの部分)
+
+# PyPI configuration file
+.pypirc
+
+# Cursor
+.cursorignore
+.cursorindexingignore
+
+# --- 橘 真白プロジェクト専用の無視リスト ---
+# (ここから下の行は、すべて行頭にスペースがないことを確認)
+
+# Wikipediaから生成した、巨大なデータとモデル
+jawiki-latest-pages-articles.xml.bz2
+wiki_texts.txt
+word2vec.model
+word2vec.model.syn1neg.npy
+word2vec.model.wv.vectors.npy
+ngram_model.json
+ngram_model.txt
+
+# AIの記憶ファイル (個人の対話履歴なので、公開しない方が良い場合もある)
+ai_rules.json
+training_data.json
